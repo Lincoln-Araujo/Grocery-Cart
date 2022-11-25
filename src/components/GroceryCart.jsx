@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ItemList from "./ItemList";
 import { produce, pantryItems } from "./storeItems";
+import addLogo from "./logo";
+import './components.css';
 
 export default function GroceryCart() {
   const [cart, setCart] = useState([]);
@@ -19,7 +21,7 @@ export default function GroceryCart() {
 
   return (
     <div>
-      <h1>Grocery Cart</h1>
+      <div className="head-page">{addLogo}</div>
       <ul>
         {cart.map((item, index) => (
           <li onClick={() => removeItem(index)} key={index}>
