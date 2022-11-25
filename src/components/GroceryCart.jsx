@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ItemList from "./ItemList";
 import { produce, pantryItems } from "./storeItems";
-import addLogo from "./logo";
+import addLogo from "./Logo";
 import './components.css';
 
 export default function GroceryCart() {
@@ -21,6 +21,7 @@ export default function GroceryCart() {
 
   return (
     <div>
+      {addLogo}
       <div className="head-page">{addLogo}</div>
       <ul>
         {cart.map((item, index) => (
