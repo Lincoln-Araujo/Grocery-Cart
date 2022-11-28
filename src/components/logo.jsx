@@ -1,11 +1,12 @@
-//import './components.css';
+import './components.css';
 
 export default function Logo() {
 
   return (
-    <div>
+    <div className="logo-head">
         {/* logo icon */}
         <svg 
+            className='icon-logo'
             stroke="currentColor" 
             fill="currentColor" 
             stroke-width="0" 
@@ -19,7 +20,7 @@ export default function Logo() {
         </svg>
 
         {/* log text */}
-        <div className="title">
+        <div className="title-logo">
             <span className="name-company">Grocery Cart</span>
             <div className="line"></div>
             <span className="logo-text">find the best products here</span>

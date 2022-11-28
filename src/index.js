@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import GroceryCart from "./components/GroceryCart";
-import Logo from "./components/Logo";
+import "./styles.css";
 
 ReactDOM.render(
   <GroceryCart />,
