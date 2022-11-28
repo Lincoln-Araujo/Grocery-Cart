@@ -35,3 +35,29 @@
     height: 1px;
     background-color: #00AEEF;
 }
+
+.my-cart, .produce-title, .pantry-items {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    display: flex;
+    align-items: center;
+}
+
+.my-cart {
+    background: linear-gradient(90deg, #00AEEF 0%, #C8F4F7 100%);
+}
+
+.produce-title {
+    background-color: #FBB500;
+    margin-top: 24px;
+}
+
+.pantry-items {
+    background-color: #FB6900;
+    margin-top: 16px;
+}

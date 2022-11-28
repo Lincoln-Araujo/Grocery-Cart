@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GroceryCart from "./components/GroceryCart";
-import "./styles.css";
+import App from "./App";
 
 ReactDOM.render(
-  <GroceryCart />,
+  <App />,
   document.getElementById("root")
 );

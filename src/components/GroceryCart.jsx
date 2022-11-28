@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import ItemList from "./ItemList";
 import { produce, pantryItems } from "./storeItems";
-import Logo from "./Logo";
-//import './components.css';
+import './components.css';
 
 export default function GroceryCart() {
   const [cart, setCart] = useState([]);
@@ -21,7 +20,6 @@ export default function GroceryCart() {
 
   return (
     <div>
-      <Logo/>
       <ul>
         {cart.map((item, index) => (
           <li onClick={() => removeItem(index)} key={index}>
@@ -29,9 +27,9 @@ export default function GroceryCart() {
           </li>
         ))}
       </ul>
-      <h2>Produce</h2>
+      <h2 className="produce-title">Produce</h2>
       <ItemList items={produce} onItemClick={addItem} />
-      <h2>Pantry Items</h2>
+      <h2 className="pantry-items">Pantry Items</h2>
       <ItemList items={pantryItems} onItemClick={addItem} />
     </div>
   );
