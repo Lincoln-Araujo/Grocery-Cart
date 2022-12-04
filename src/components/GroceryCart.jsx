@@ -20,6 +20,7 @@ export default function GroceryCart() {
 
   return (
     <div>
+      <span className="my-cart">My Cart</span>
       <ul>
         {cart.map((item, index) => (
           <li onClick={() => removeItem(index)} key={index}>
