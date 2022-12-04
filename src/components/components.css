@@ -46,6 +46,7 @@
     letter-spacing: 0.16em;
     display: flex;
     align-items: center;
+    padding-left: 16px;
 }
 
 .my-cart {
@@ -60,4 +61,12 @@
 .pantry-items {
     background-color: #FB6900;
     margin-top: 16px;
+}
+
+.item-list {
+    margin: 0 16px;
+}
+
+.item {
+    margin: 4px 4px
 }
