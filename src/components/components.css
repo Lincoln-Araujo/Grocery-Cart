@@ -86,3 +86,54 @@
     border-color: rgba(7, 94, 126, 1);
     color: rgba(7, 94, 126, 1);
 }
+
+.image-item {
+    width: 132px;
+    height: 88px;
+    margin-bottom: 8px;
+}
+
+.image-product {
+    display: flex;
+    
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 8px;
+    align-items: center;
+}
+
+.icon-minus {
+    margin-left: 130px;
+    margin-bottom: 4px;
+    color: #EF5600;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.icon-minus:hover {
+    color: #ff0000;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.2s ease-out;
+}
+
+.icon-minus:active {
+    color: #a1391a;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+}
+
+.text-icon {
+    text-transform: uppercase;
+    font-size: 12px;
+}
