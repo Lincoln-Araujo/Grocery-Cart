@@ -68,5 +68,21 @@
 }
 
 .item {
-    margin: 4px 4px
+    margin: 4px 4px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px solid #4E5051;
+    color: #4E5051;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.item:hover {
+    border-color: rgba(0, 174, 239, 1);
+    color: rgba(0, 174, 239, 1);
+}
+
+.item:active {
+    border-color: rgba(7, 94, 126, 1);
+    color: rgba(7, 94, 126, 1);
 }
