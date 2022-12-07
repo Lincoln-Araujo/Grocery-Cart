@@ -1,8 +1,10 @@
 import './App.css';
-import GroceryCart from './components/GroceryCart';
-import Logo from './components/Logo';
+import GroceryCart from './Components/GroceryCart';
+import Logo from './Components/Logo';
 
 export default function App() {
+  fetch()
+    .then()
   return (
     <div className="App">
       <Logo />
