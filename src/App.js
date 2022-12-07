@@ -1,6 +1,6 @@
 import './App.css';
-import GroceryCart from './Components/GroceryCart';
-import Logo from './Components/Logo';
+import GroceryCart from './components/GroceryCart';
+import Logo from './components/Logo';
 
 export default function App() {
   fetch()
