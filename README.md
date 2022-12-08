@@ -1,8 +1,8 @@
 # Grocery Cart
 
-Link - [project link](#)
+Link - [project link](https://grocery-cart-lincoln.netlify.app/)
 
-<a href="#" target="_blank"><img src="./presentation.PNG" alt="presentation"></a>
+<a href="https://grocery-cart-lincoln.netlify.app/" target="_blank"><img src="./presentation.png" alt="presentation"></a>
 
 # Index
 
@@ -48,7 +48,7 @@ A new window or tab should open in your main browser with the react project.
 
 * HTML
 
-* CSS (faltam algumas configuraçoes de reponsividade ainda)
+* CSS 
 
 
 # :iphone: Contact Information <a name="id06"></a>
